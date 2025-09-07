@@ -4,7 +4,7 @@ os.system
     
 nome = input("Digite o nome da pessoa: ")
 sexo = input("Digite o sexo (M/F): ")
-estado_civil = input("Digite o estado civil (SOLTEIRO/CASADO/VIÚVO/DIVORCIADO): ") 
+estado_civil = input("Digite o estado civil (SOLTEIRO/CASADO/VIuVO/DIVORCIADO): ") 
 tempo_casada = int(input("coloque o tempo de casada")) 
 
 if sexo == "F" and estado_civil == "CASADA":

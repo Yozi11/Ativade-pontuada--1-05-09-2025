@@ -19,4 +19,4 @@ else:
   C = A * B
 
 
-print("O resultado é:", C)
+print("O resultado e:", C)

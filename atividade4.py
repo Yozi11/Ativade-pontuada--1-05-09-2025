@@ -1,6 +1,6 @@
 
 quantidade_morango = float(input("Digite a quantidade (em Kg) de morangos: "))
-quantidade_maca = float(input("Digite a quantidade (em Kg) de maçãs: "))
+quantidade_maca = float(input("Digite a quantidade (em Kg) de macas: "))
 
 
 if quantidade_morango <= 5:
@@ -28,4 +28,4 @@ else:
     valor_a_pagar = valor_total_bruto
 
 
-print(f"O valor a ser pago pelo cliente é: R$ {valor_a_pagar:.2f}")
+print(f"O valor a ser pago pelo cliente e: R$ {valor_a_pagar:.2f}")

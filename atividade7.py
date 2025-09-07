@@ -1,7 +1,7 @@
 
-descricao_produto = input("Digite a descrição do produto: ")
+descricao_produto = input("Digite a descricao do produto: ")
 quantidade_adquirida = int(input("Digite a quantidade adquirida: "))
-preco_unitario = float(input("Digite o preço unitario: "))
+preco_unitario = float(input("Digite o preco unitario: "))
 
 
 total = quantidade_adquirida * preco_unitario
@@ -21,7 +21,7 @@ desconto = total * (percentagem_desconto / 100)
 total_a_pagar = total - desconto
 
 
-print(f"\ndescrição do produto: {descricao_produto}")
+print(f"\ndescricao do produto: {descricao_produto}")
 print(f"total Bruto: ${total:.2f}")
 print(f"desconto ({percentagem_desconto}%): ${desconto:.2f}")
 print(f"total a pagar: ${total_a_pagar:.2f}")
